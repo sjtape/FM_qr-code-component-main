@@ -1,0 +1,61 @@
+$White: hsl(0, 0%, 100%);
+$Slate300: hsl(212, 45%, 89%);
+$Slate500: hsl(216, 15%, 48%);
+$Slate900: hsl(218, 44%, 22%);
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+html {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: $Slate300;
+}
+
+@mixin Flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#QR-container {
+    @include Flex-center;
+    text-align: center;
+    height: 90vh;
+    font-size:15px;
+
+    .QR,
+    img {
+        border-radius: 15px;
+    }
+
+    .QR {
+        padding: 15px;
+        background-color: $White;
+        max-width: 240px;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .text {
+        padding-inline: 15px;
+    }
+    h2 {
+        font-weight: 700;
+        color: $Slate900;
+    }
+    p {
+        font-weight: 400;
+        color: $Slate500;
+    }
+}
+
+//Footer
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+}
