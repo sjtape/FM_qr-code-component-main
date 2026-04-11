@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
-html {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Wajib ada */
+}
+
+body {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -11,19 +18,20 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 90vh;
+  height: 100vh;
   font-size: 15px;
 }
 
 #QR-container .QR,
 #QR-container img {
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 #QR-container .QR {
-  padding: 15px;
+  padding: 1em;
   background-color: white;
-  max-width: 240px;
+  width: 90%;
+  max-width: 320px;
 }
 
 #QR-container .QR img {
@@ -31,18 +39,21 @@ html {
   height: auto;
 }
 
-#QR-container .text {
-  padding-inline: 15px;
+#QR-container .text h2,
+#QR-container .text p {
+  padding: 1rem;
 }
 
-#QR-container h2 {
+#QR-container .text h2 {
   font-weight: 700;
   color: #1f3251;
 }
 
-#QR-container p {
+#QR-container .text p {
+  font-size: 15px;
   font-weight: 400;
   color: #68778d;
+  padding-top: 0;
 }
 
 .attribution {
