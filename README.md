@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://sjtape.github.io/fm-qr-code-component-main)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/qr-code-using-scss-HU2WmP_rmf)
+- Live Site URL: [Github](https://sjtape.github.io/FM_qr-code-component-main/)
 
 ## My process
 
